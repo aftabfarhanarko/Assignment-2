@@ -194,6 +194,74 @@ body{
 
 
 
+/* lates-model Section */
+.lates-model{
+    max-width: 1150px;
+    margin: 100px auto 0px;
+}
+.model-teitle{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+.pleantes-subti{
+    color: var(--p-color);
+
+}
+.images-grid{
+    display: flex;
+}
+
+
+
+
+
+
+/* email Section */
+.email{
+    width: 100%;
+    background-color: #ece2dc;
+    margin-top: 100px;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.midel-text{
+    text-align: center;
+    padding: 150px 0;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.teilons{
+    font-size: 2.9rem;
+    font-weight: 600;
+    color: white;
+}
+.mail{
+    padding: 15px 15px;
+    margin-top: 27px;
+   width: 500px;
+   border: none;
+   border-radius: 5px 0 0 5px;
+   font-size: 1.1rem;
+}
+.buttn{
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #e96417;
+    color: white;
+    
+}
+
+
+
+
+
+
 @media screen and (max-width:576px){
 
   .one,.tow,.three {
@@ -247,6 +315,15 @@ body{
 .img-dobal{
     max-width: 100%;
     padding: 0 7px;
+}
+.teilons{
+    font-size: 2.5rem;
+}
+.mail{
+   width: 250px;
+}
+.buttn{
+    padding: 15px 30px;
 }
 
 }
