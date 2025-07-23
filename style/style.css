@@ -112,6 +112,7 @@ body{
 .plant-teile{
     font-size: 3rem;
     margin-bottom: 15px;
+    font-weight: 600;
 }
 .primary{
     color: var(--p-color);
@@ -151,11 +152,44 @@ body{
 }
 
 
+/* plantes */
+.plantes{
+    max-width: 1150px;
+    margin: 100px auto 0;
+}
+.positon{
+    position: absolute;
+    width: 20%;
+    z-index: 1;
+   top: -85px;
+   left: 385px;
+}
+.double{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.img-dobal{
+   max-width: 550px;
+    height: 60vh;
+}
+.plantesa-text-content{
+    padding: 50px 0 0 0;
 
-
-
-
-
+}
+.plan-teitle{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.unoder{
+    margin: 15px 0 0 0;
+  padding-left: 30px;
+}
+.listes{
+    margin-bottom: 35px;
+    color: var(--p-color);
+}
 
 
 
@@ -189,6 +223,30 @@ body{
 }
 .cards-btn{
    max-width: 175px;
+}
+.positon{
+    display: none;
+}
+.plant-teile{
+    font-size: 2rem;
+}
+.double{
+    grid-template-columns: repeat(1,1fr);
+    gap: 40px;
+}
+.plantesa-text-content{
+    padding: 0;
+    max-width: 400px;
+    justify-items: center;
+}
+.plan-teitle{
+   padding-left: 5px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.img-dobal{
+    max-width: 100%;
+    padding: 0 7px;
 }
 
 }
