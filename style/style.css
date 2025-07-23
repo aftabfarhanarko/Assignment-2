@@ -1,192 +1,220 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 .work-sans-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Primay Colo */
-:root{
+:root {
     --p-color: rgb(110, 110, 110);
 }
 
-body{
+body {
     background-color: #F5F8FF;
 }
+
 /* Same Style */
-.my-color{
- color: #E95A08;
+.my-color {
+    color: #E95A08;
 }
 
 /* Header Section */
 
-.header{
+.header {
 
     max-width: 1150px;
     margin: 0 auto;
-     margin-top: 15px;
+    margin-top: 15px;
 }
 
-.navigiton{
+.navigiton {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     max-width: 100%;
 }
+
 .hear-teitle {
     display: flex;
     gap: 40px;
 
 }
-.hear-teitle ,
+
+.hear-teitle,
 .liset,
-.home{
+.home {
     text-decoration: none;
-     align-items: center;
+    align-items: center;
 }
-.hear-teitle ,
-.liset{
+
+.hear-teitle,
+.liset {
     list-style: none;
 }
-.one{
-  font-size: 17px;
-  font-weight: 600;
-  color: black;
+
+.one {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
 }
+
 .tow,
-.three{
-  font-size: 17px;
-  color: var(--p-color);
+.three {
+    font-size: 17px;
+    color: var(--p-color);
 }
-.nave-btn{
+
+.nave-btn {
     border: none;
     background-color: #F5F8FF;
     font-size: 18px;
 }
+
 /* banner Section */
-.banner{
+.banner {
     margin-top: 100px;
     display: flex;
     height: 100%;
     gap: 77px;
 }
-.text-cointenar{
+
+.text-cointenar {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     max-width: 500px;
 }
-.banners-img{
+
+.banners-img {
     max-width: 650px;
 }
-.teitle{
-   font-size: 3rem;
-   line-height: 60px;
+
+.teitle {
+    font-size: 3rem;
+    line-height: 60px;
 }
 
-.sub-teitle{
-  margin-top: 10px;
-  color: #5f5f5f;
+.sub-teitle {
+    margin-top: 10px;
+    color: #5f5f5f;
 }
 
 /* our-plants Section */
-.our-plants{
+.our-plants {
     max-width: 1150px;
     margin: 0 auto;
 }
-.teilet-plant{
-    margin-top: 70px ;
+
+.teilet-plant {
+    margin-top: 70px;
     max-width: 700px;
     margin: 70px auto 0;
     text-align: center;
 }
-.plant-teile{
+
+.plant-teile {
     font-size: 3rem;
     margin-bottom: 15px;
     font-weight: 600;
 }
-.primary{
+
+.primary {
     color: var(--p-color);
 }
+
 /* card-cointenar*/
- .card-cointenar{ 
+.card-cointenar {
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
-.card{
+
+.card {
     margin-bottom: 19px;
     text-align: center;
 
 }
-.lily-teitle{
+
+.lily-teitle {
     font-size: 1.3rem;
     font-weight: 500;
     color: #111111;
     margin-top: 10px;
 }
-.pricese{
+
+.pricese {
     margin-top: 8px;
     font-size: 1.2rem;
     font-weight: 600;
 }
-.cards-btn{
+
+.cards-btn {
     margin-top: 17px;
     font-size: 1rem;
     font-weight: 600;
     border: none;
     background-color: #E95A08;
     color: white;
-    padding: 13px ;
+    padding: 13px;
     width: 96.5%;
 }
 
 
 /* plantes */
-.plantes{
+.plantes {
     max-width: 1150px;
     margin: 100px auto 0;
 }
-.positon{
+
+.positon {
     position: absolute;
     width: 20%;
     z-index: 1;
-   top: -85px;
-   left: 385px;
+    top: -85px;
+    left: 385px;
 }
-.double{
+
+.double {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
-.img-dobal{
-   max-width: 550px;
+
+.img-dobal {
+    max-width: 550px;
     height: 60vh;
 }
-.plantesa-text-content{
+
+.plantesa-text-content {
     padding: 50px 0 0 0;
 
 }
-.plan-teitle{
+
+.plan-teitle {
     font-size: 3rem;
     font-weight: 600;
 }
-.unoder{
+
+.unoder {
     margin: 15px 0 0 0;
-  padding-left: 30px;
+    padding-left: 30px;
 }
-.listes{
+
+.listes {
     margin-bottom: 35px;
     color: var(--p-color);
 }
@@ -195,21 +223,24 @@ body{
 
 
 /* lates-model Section */
-.lates-model{
+.lates-model {
     max-width: 1150px;
     margin: 100px auto 0px;
 }
-.model-teitle{
+
+.model-teitle {
     text-align: center;
     max-width: 700px;
     margin: 0 auto;
 
 }
-.pleantes-subti{
+
+.pleantes-subti {
     color: var(--p-color);
 
 }
-.images-grid{
+
+.images-grid {
     display: flex;
 }
 
@@ -219,7 +250,7 @@ body{
 
 
 /* email Section */
-.email{
+.email {
     width: 100%;
     background-color: #ece2dc;
     margin-top: 100px;
@@ -228,102 +259,189 @@ body{
     background-size: cover;
 
 }
-.midel-text{
+
+.midel-text {
     text-align: center;
     padding: 150px 0;
     max-width: 700px;
     margin: 0 auto;
 }
-.teilons{
+
+.teilons {
     font-size: 2.9rem;
     font-weight: 600;
     color: white;
 }
-.mail{
+
+.mail {
     padding: 15px 15px;
     margin-top: 27px;
-   width: 500px;
-   border: none;
-   border-radius: 5px 0 0 5px;
-   font-size: 1.1rem;
+    width: 500px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.1rem;
 }
-.buttn{
+
+.buttn {
     padding: 15px 40px;
     font-size: 1.1rem;
     border: none;
     border-radius: 0 5px 5px 0;
     background-color: #e96417;
     color: white;
-    
+
+}
+
+/* footer */
+footer {}
+
+.content {
+    padding: 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logeas-sec {
+    max-width: 350px;
+}
+
+.logos-teitle {
+    margin-top: 10px;
+    color: var(--p-color);
+    font-size: 1.4rem;
+}
+
+.flower,
+.athor {
+    text-decoration: none;
+    color: var(--p-color);
+}
+
+.flower li {
+    list-style: none;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+.bares {
+    padding-left: 29px;
+    text-align: center;
 }
 
 
+@media screen and (max-width:576px) {
 
+    .one,
+    .tow,
+    .three {
+        display: none;
+    }
 
+    .logo {
+        width: 25%;
+    }
 
+    .navigiton {
+        padding: 0 10px 0;
+        text-align: center;
+        align-items: center;
+    }
 
-@media screen and (max-width:576px){
+    .banner {
+        margin-top: 25px;
+        flex-direction: column-reverse;
+        height: 100%;
+        gap: 5px;
+    }
 
-  .one,.tow,.three {
-    display: none;
+    .teitle {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .text-cointenar {
+        padding: 0 10px;
+    }
+
+    .card-cointenar {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+
+    .cards,
+    .img-cards {
+        width: 175px;
+    }
+
+    .cards-btn {
+        max-width: 175px;
+    }
+
+    .positon {
+        display: none;
+    }
+
+    .plant-teile {
+        font-size: 2rem;
+    }
+
+    .double {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .plantesa-text-content {
+        padding: 0;
+        max-width: 400px;
+        justify-items: center;
+    }
+
+    .plan-teitle {
+        padding-left: 5px;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .img-dobal {
+        max-width: 100%;
+        padding: 0 7px;
+    }
+
+    .teilons {
+        font-size: 2.5rem;
+    }
+
+    .mail {
+        width: 250px;
+    }
+
+    .buttn {
+        padding: 15px 30px;
+    }
+
+    .logos-teitle {
+        margin-top: 18px;
+        font-size: 1.3rem;
+    }
+
+    .content {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .icon {
+        margin-top: 20px;
 
     }
-    .banner{
-    margin-top: 25px;
-    flex-direction: column-reverse;
-    height: 100%;
-    gap: 5px;
-}
-.teitle{
-   font-size: 2rem;
-   line-height: 40px;
-}
-.text-cointenar{
-    padding: 0 10px;
-}
-.card-cointenar{
-    grid-template-columns: repeat(2,1fr);
-    gap: 0;
-}
-.cards,
-.img-cards{
-    width: 175px;
-}
-.cards-btn{
-   max-width: 175px;
-}
-.positon{
-    display: none;
-}
-.plant-teile{
-    font-size: 2rem;
-}
-.double{
-    grid-template-columns: repeat(1,1fr);
-    gap: 40px;
-}
-.plantesa-text-content{
-    padding: 0;
-    max-width: 400px;
-    justify-items: center;
-}
-.plan-teitle{
-   padding-left: 5px;
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-.img-dobal{
-    max-width: 100%;
-    padding: 0 7px;
-}
-.teilons{
-    font-size: 2.5rem;
-}
-.mail{
-   width: 250px;
-}
-.buttn{
-    padding: 15px 30px;
-}
+
+    .bares {
+        padding: 9px 22px 0 0;
+    }
+
+    .sections-imges {
+        width: 52%;
+    }
 
 }
