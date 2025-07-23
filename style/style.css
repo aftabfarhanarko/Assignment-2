@@ -12,6 +12,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Primay Colo */
+:root{
+    --p-color: rgb(110, 110, 110);
+}
 
 body{
     background-color: #F5F8FF;
@@ -34,6 +38,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo{
+    max-width: 100%;
 }
 .hear-teitle {
     display: flex;
@@ -58,7 +65,7 @@ body{
 .tow,
 .three{
   font-size: 17px;
-  color: rgb(110, 110, 110);
+  color: var(--p-color);
 }
 .nave-btn{
     border: none;
@@ -91,6 +98,68 @@ body{
   color: #5f5f5f;
 }
 
+/* our-plants Section */
+.our-plants{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.teilet-plant{
+    margin-top: 70px ;
+    max-width: 700px;
+    margin: 70px auto 0;
+    text-align: center;
+}
+.plant-teile{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.primary{
+    color: var(--p-color);
+}
+/* card-cointenar*/
+ .card-cointenar{ 
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.card{
+    margin-bottom: 19px;
+    text-align: center;
+
+}
+.lily-teitle{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 10px;
+}
+.pricese{
+    margin-top: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.cards-btn{
+    margin-top: 17px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    padding: 13px ;
+    width: 96.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px){
 
   .one,.tow,.three {
@@ -110,4 +179,16 @@ body{
 .text-cointenar{
     padding: 0 10px;
 }
+.card-cointenar{
+    grid-template-columns: repeat(2,1fr);
+    gap: 0;
+}
+.cards,
+.img-cards{
+    width: 175px;
+}
+.cards-btn{
+   max-width: 175px;
+}
+
 }
