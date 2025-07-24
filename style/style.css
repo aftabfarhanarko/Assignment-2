@@ -187,7 +187,7 @@ body {
     z-index: 1;
     top: -105px;
     left: 390px;
-}
+} 
 
 .double {
     position: relative;
@@ -404,6 +404,7 @@ footer {}
     .three {
         display: none;
     }
+    
 
     .logo {
         width: 15%;
@@ -436,6 +437,10 @@ footer {}
         padding: 0 10px;
     }
 
+    .primary{
+       max-width: 380px;
+       margin: 0 auto;
+    }
     .card-cointenar {
         grid-template-columns: repeat(2, 1fr);
         gap: 4px;
