@@ -438,8 +438,8 @@ footer {}
 
     .card-cointenar {
         grid-template-columns: repeat(2, 1fr);
-        gap: 0;
-        padding: 0 7px 0 7px;
+        gap: 9;
+        padding: 0 7px 0 5px;
     }
 
     .cards,
