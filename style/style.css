@@ -171,7 +171,7 @@ body {
     background-color: #E95A08;
     color: white;
     padding: 13px;
-    width: 96.5%;
+    width: 96.9%;
 }
 
 
@@ -438,17 +438,19 @@ footer {}
 
     .card-cointenar {
         grid-template-columns: repeat(2, 1fr);
-        gap: 9px;
-        padding: 0 7px 0 5px;
+        gap: 4px;
+        padding: 0 10px 0 10px;
     }
-
+    .card{
+        padding: 0 7px 0 7px;
+    }
     .cards,
     .img-cards {
         width: 175px;
     }
 
     .cards-btn {
-        max-width: 175px;
+        max-width: 177px;
     }
 
     .positon {
