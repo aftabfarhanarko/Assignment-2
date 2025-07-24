@@ -430,6 +430,7 @@ footer {}
     .card-cointenar {
         grid-template-columns: repeat(2, 1fr);
         gap: 0;
+        padding: 0 7px 0 7px;
     }
 
     .cards,
@@ -441,6 +442,9 @@ footer {}
         max-width: 175px;
     }
 
+    /* .unoder{
+        padding: 0 1px 0 39px;
+    } */
     .positon {
         display: none;
     }
@@ -480,9 +484,7 @@ footer {}
     }
 
     .ede {
-
         height: 25vh;
-
         border-radius: 8px;
         filter: brightness(85%);
     }
@@ -497,16 +499,23 @@ footer {}
     }
 
     .plantesa-text-content {
-        padding: 0;
+        padding: 0 8px 0 8px;
         max-width: 400px;
         justify-items: center;
-    }
+    } 
 
     .plan-teitle {
         padding-left: 5px;
         font-size: 2.5rem;
         font-weight: 600;
     }
+    .model-teitle{
+     padding: 0 5px 0 5px;
+    margin: 0px auto 0;
+    text-align: center;
+
+     }
+
 
     .img-dobal {
         max-width: 100%;
@@ -550,10 +559,12 @@ footer {}
 
     .pleantes-subti {
         text-align: center;
+        padding: 0 16px 0 16px;  /* Test Of Our Point */
+    }    
 
-    }
+   
     .sections-imges {
-        width: 38%;
+        width: 50%;
     }
 
 
