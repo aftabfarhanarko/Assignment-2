@@ -457,16 +457,15 @@ footer {}
         margin: 70px auto 0;
         display: grid;
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 10px;
     }
 
     .first-box {
         height: 50vh;
-        padding: 10px;
+        padding: 10px 10px 0 10px;
     }
 
     .Seconds-box2 {
-        margin-top: -5px;
         margin: 0 10px 0 10px;
         height: 25vh;
         filter: brightness(85%);
@@ -553,8 +552,6 @@ footer {}
         text-align: center;
 
     }
-
-
     .sections-imges {
         width: 38%;
     }
