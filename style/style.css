@@ -40,6 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
@@ -49,12 +50,12 @@ body {
 .hear-teitle {
     display: flex;
     gap: 40px;
-
 }
 
 .hear-teitle,
 .liset,
-.home {
+.home,
+.four {
     text-decoration: none;
     align-items: center;
 }
@@ -76,10 +77,11 @@ body {
     color: var(--p-color);
 }
 
-.nave-btn {
+.four {
     border: none;
-    background-color: #F5F8FF;
-    font-size: 18px;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 /* banner Section */
@@ -228,7 +230,8 @@ body {
     max-width: 1150px;
     margin: 100px auto 0px;
 }
-.model-teitle{
+
+.model-teitle {
     max-width: 700px;
     margin: 90px auto 0;
     text-align: center;
@@ -247,46 +250,44 @@ body {
 }
 
 .Seconds-box2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 35vh;
     border-radius: 8px;
     background-image: url('../assets/deal-zabo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(85%);
 
 }
 
 .odh {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 25vh;
     margin-bottom: 10px;
     background-image: url('../assets/deal-ana.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
-    filter: brightness(85%);
 }
 
 .ede {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #5f5f5f;
     height: 25vh;
     background-image: url('../assets/deal-bloom.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
-    filter: brightness(85%);
 }
 
 .bluar {
     text-align: center;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .backwe {
@@ -380,6 +381,10 @@ footer {}
     color: var(--p-color);
 }
 
+.github {
+    width: 37px;
+}
+
 .flower li {
     list-style: none;
     margin-top: 25px;
@@ -401,8 +406,12 @@ footer {}
     }
 
     .logo {
-        width: 24%;
-        align-items: center;
+        width: 15%;
+
+    }
+
+    .four {
+        font-size: 1.3rem;
     }
 
     .navigiton {
@@ -442,9 +451,6 @@ footer {}
         max-width: 175px;
     }
 
-    /* .unoder{
-        padding: 0 1px 0 39px;
-    } */
     .positon {
         display: none;
     }
@@ -452,7 +458,8 @@ footer {}
     .plant-teile {
         font-size: 2rem;
     }
-        .lates-model {
+
+    .lates-model {
         max-width: 1150px;
         margin: 100px auto 0px;
     }
@@ -472,21 +479,16 @@ footer {}
     .Seconds-box2 {
         margin: 0 10px 0 10px;
         height: 25vh;
-        filter: brightness(85%);
-
     }
 
     .odh {
         height: 25vh;
         margin-bottom: 10px;
-
-        filter: brightness(85%);
     }
 
     .ede {
         height: 25vh;
         border-radius: 8px;
-        filter: brightness(85%);
     }
 
     .double {
@@ -502,19 +504,20 @@ footer {}
         padding: 0 8px 0 8px;
         max-width: 400px;
         justify-items: center;
-    } 
+    }
 
     .plan-teitle {
         padding-left: 5px;
         font-size: 2.5rem;
         font-weight: 600;
     }
-    .model-teitle{
-     padding: 0 5px 0 5px;
-    margin: 0px auto 0;
-    text-align: center;
 
-     }
+    .model-teitle {
+        padding: 0 5px 0 5px;
+        margin: 0px auto 0;
+        text-align: center;
+
+    }
 
 
     .img-dobal {
@@ -559,15 +562,18 @@ footer {}
 
     .pleantes-subti {
         text-align: center;
-        padding: 0 16px 0 16px;  /* Test Of Our Point */
-    }    
-
-   
-    .sections-imges {
-        width: 50%;
+        padding: 0 16px 0 16px;
+        /* Test Of Our Point */
     }
 
 
+    .sections-imges {
+        width: 46%;
+    }
+
+    .github {
+        margin-right: 22px;
+    }
 
 
 }
