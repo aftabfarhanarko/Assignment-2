@@ -176,26 +176,26 @@ body {
 /* plantes */
 .plantes {
     max-width: 1150px;
-    margin: 100px auto 0;
+    margin: 130px auto 0;
 }
 
 .positon {
     position: absolute;
     width: 20%;
     z-index: 1;
-    top: -85px;
-    left: 385px;
+    top: -105px;
+    left: 390px;
 }
 
 .double {
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 26px;
 }
 
 .img-dobal {
-    max-width: 550px;
+    max-width: 650px;
     height: 60vh;
 }
 
@@ -205,8 +205,9 @@ body {
 }
 
 .plan-teitle {
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: 600;
+    max-width: 400px;
 }
 
 .unoder {
@@ -227,11 +228,78 @@ body {
     max-width: 1150px;
     margin: 100px auto 0px;
 }
-
-.model-teitle {
-    text-align: center;
+.model-teitle{
     max-width: 700px;
-    margin: 0 auto;
+    margin: 90px auto 0;
+    text-align: center;
+
+}
+
+.images-grid {
+    margin: 70px auto 0;
+    display: grid;
+    grid-template-columns: 30% repeat(1, 1fr);
+    gap: 20px;
+}
+
+.first-box>div {
+    height: calc((100% - 10px)/2);
+}
+
+.Seconds-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    border-radius: 8px;
+    background-image: url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(85%);
+
+}
+
+.odh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    margin-bottom: 10px;
+    background-image: url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    filter: brightness(85%);
+}
+
+.ede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f5f5f;
+    height: 25vh;
+    background-image: url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    filter: brightness(85%);
+}
+
+.bluar {
+    text-align: center;
+}
+
+.backwe {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 13px;
+}
+
+.dic3e {
+    text-decoration: underline;
+    font-weight: 600;
+    color: white;
 
 }
 
@@ -240,81 +308,7 @@ body {
 
 }
 
-.images-grid {
-    margin-top: 70px;
-    display:flex;
-    gap: 17px;
-}
-.first-img{
-    height: 400px ;
-    width: 30%;
-}
-.my-name{
-    display: flex;
-    height: 50%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-image: url('../assets/deal-ana.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px;
-    margin-bottom: 7px;
-    z-index: -1;
-    filter:brightness(70%);
-}
 
-.flowearws{
-   display: flex;
-    height: 50%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-image: url('../assets/deal-bloom.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px;
-     filter:brightness(70%);
-}
-
-.second-img{
-    height: 400px;
-    width: 70%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-image: url('../assets/deal-zabo.png');
-    border-radius: 15px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    filter:blur(1px);
-}
-.back{
-    font-size: 2rem;
-    font-weight: 600;
-    color: white;
-    filter: brightness(500%);
-}
-.dic{
-    margin-top: 15px;
-    font-size: 1.7rem;
-    text-decoration: underline;
-    color: white;
-}
-.backwe{
-    font-size: 1.6rem;
-    color: white;
-    filter: brightness(154%);
-}
-.dic3e{
-    font-size: 1.3rem;
-    text-decoration: underline;
-    color: white;
-    filter: brightness(1888%);
-}
 
 /* email Section */
 .email {
@@ -407,7 +401,8 @@ footer {}
     }
 
     .logo {
-        width: 25%;
+        width: 24%;
+        align-items: center;
     }
 
     .navigiton {
@@ -453,10 +448,53 @@ footer {}
     .plant-teile {
         font-size: 2rem;
     }
+        .lates-model {
+        max-width: 1150px;
+        margin: 100px auto 0px;
+    }
+
+    .images-grid {
+        margin: 70px auto 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .first-box {
+        height: 50vh;
+        padding: 10px;
+    }
+
+    .Seconds-box2 {
+        margin-top: -5px;
+        margin: 0 10px 0 10px;
+        height: 25vh;
+        filter: brightness(85%);
+
+    }
+
+    .odh {
+        height: 25vh;
+        margin-bottom: 10px;
+
+        filter: brightness(85%);
+    }
+
+    .ede {
+
+        height: 25vh;
+
+        border-radius: 8px;
+        filter: brightness(85%);
+    }
 
     .double {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
+    }
+
+    .plantes {
+        margin-top: 30px;
     }
 
     .plantesa-text-content {
@@ -507,26 +545,21 @@ footer {}
         padding: 9px 22px 0 0;
     }
 
-    .sections-imges {
-        width: 52%;
+    .plant-teile {
+        text-align: center;
     }
-    .images-grid {
-    margin-top: 70px;
-    flex-direction: column;
-    gap: 17px;
-}
-.first-img{
-    height: 450px ;
-    width: 100%;
-}
-.my-name{
-  width: 100%;
-}
 
-.second-img{
-    height: 250px;
-    width: 100%;
-    padding: 0 10px;
-}
+    .pleantes-subti {
+        text-align: center;
+
+    }
+
+
+    .sections-imges {
+        width: 38%;
+    }
+
+
+
 
 }
